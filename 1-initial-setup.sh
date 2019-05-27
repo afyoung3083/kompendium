@@ -1,5 +1,9 @@
 #!/usr/bin/bash
 
+# The purpose of this file is to help the non-root user to set up their
+# SSH login information. If the user already has an established login, 
+# this optional script will not be of much use.
+
 # Prompts for non-root user
 read -p "Enter new user name: " username
 read -p "Please enter users public ssh key (no newlines): " ssh_key
